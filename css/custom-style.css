@@ -9,3 +9,15 @@
 .bg-darkcyan {
   background-color: darkcyan;
 }
+
+.bg-cornsilk {
+  background-color: cornsilk;
+}
+
+.avatar {
+  max-width: 120px;
+}
+
+.icon {
+  min-width: 25px;
+}
