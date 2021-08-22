@@ -14,10 +14,22 @@
   background-color: cornsilk;
 }
 
+.bg-ghostwhite {
+  background-color: GhostWhite;
+}
+
 .avatar {
   max-width: 120px;
 }
 
-.icon {
+.contact-icon {
   min-width: 25px;
+}
+
+.main-skill-icon {
+  min-width: 200px;
+}
+
+.other-skill-icon {
+  min-width: 50px;
 }
