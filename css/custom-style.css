@@ -18,6 +18,10 @@
   background-color: GhostWhite;
 }
 
+.resposible-list li{
+  background: transparent;
+}
+
 .avatar {
   max-width: 120px;
 }
