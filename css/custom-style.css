@@ -33,3 +33,11 @@
 .other-skill-icon {
   min-width: 50px;
 }
+
+.it-terms {
+  color: gray;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
