@@ -7,5 +7,13 @@ const googleSearchUrl = "https://www.google.com/search?q=";
  */
 function searchGoogle(searchTxt) {
     var redirectUrl = googleSearchUrl + searchTxt;
-    window.open(redirectUrl, "_blank");
+    redirect(redirectUrl);
+}
+
+/**
+ * redirect to url
+ * @param url refer to url to redirect
+ */
+ function redirect(url) {
+    window.open(url, "_blank");
 }
