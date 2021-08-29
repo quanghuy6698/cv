@@ -6,6 +6,10 @@
   color: cornsilk;
 }
 
+.text-dodgerblue {
+  color: dodgerblue;
+}
+
 .bg-darkcyan {
   background-color: darkcyan;
 }
@@ -18,7 +22,7 @@
   background-color: GhostWhite;
 }
 
-.resposible-list li{
+.resposible-list li {
   background: transparent;
 }
 
