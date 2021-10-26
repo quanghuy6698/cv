@@ -1,8 +1,10 @@
 @import "custom-style.css";
 
 /* @font-face {
-  font-family: SeogeUI;
-  src: url("../vendor/fonts/SegoeUI.woff");
+  font-family: MyFont;
+  font-style: normal;
+  font-weight: normal;
+  src: local("MyFont"), url("../vendor/fonts/SegoeUI/SegoeUI.woff") format("woff");
 } */
 
 * {
@@ -15,8 +17,8 @@ body {
   /* background-image: url("../assets/img/hex-striped-repeat.png"); */
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url("../assets/images/backgrounds/background.png");
   background-repeat: repeat;
-  /* font-family: SeogeUI; */
-  /* font-size: 16px; */
+  /* font-family: MyFont;
+  font-size: 16px; */
 }
 
 /* .main-container {
