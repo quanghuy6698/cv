@@ -1,11 +1,11 @@
 @import "custom-style.css";
 
-/* @font-face {
+@font-face {
   font-family: MyFont;
   font-style: normal;
   font-weight: normal;
-  src: local("MyFont"), url("../vendor/fonts/SegoeUI/SegoeUI.woff") format("woff");
-} */
+  src: local("MyFont"), url("../vendor/fonts/SanFranciscoFonts/SFUIDisplay-Regular.otf") format("woff");
+}
 
 * {
   border: 0;
