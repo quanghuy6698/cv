@@ -22,8 +22,18 @@
   background-color: GhostWhite;
 }
 
-.resposible-list li {
+.responsible-list li {
   background: transparent;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.project-table {
+  box-shadow: 0 0 0 1px #666;
+  border-radius: 3px;
+  border-collapse: collapse;
 }
 
 .avatar {
