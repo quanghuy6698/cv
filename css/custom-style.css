@@ -44,12 +44,9 @@
   min-width: 25px;
 }
 
-.main-skill-icon {
-  min-width: 200px;
-}
-
-.other-skill-icon {
-  min-width: 50px;
+.skill-icon {
+  min-width: 100px;
+  max-width: 120px;
 }
 
 .it-terms {
@@ -62,4 +59,10 @@
 
 .certification-img {
   max-width: 12rem;
+}
+
+.no-over-size {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
