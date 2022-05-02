@@ -15,23 +15,25 @@
 
 body {
   /* background-image: url("../assets/img/hex-striped-repeat.png"); */
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url("../assets/images/backgrounds/background2.jpg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url("../assets/img/backgrounds/background2.jpg");
   background-repeat: repeat;
   /* font-family: MyFont;
   font-size: 16px; */
 }
 
 .main-container {
-  width: 1000px;
-  margin: 0 auto;
   background-color: transparent;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 479px) {
   .main-container {
-    min-width: 400px;
-    width: 96%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 479px) {
+  .main-container {
+    max-width: 880px;
     margin: 0 auto;
-    background-color: transparent;
   }
 }
