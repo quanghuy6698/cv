@@ -1,0 +1,24 @@
+{
+  "personalInfo": [
+    {
+      "label": "Name",
+      "value": "Nguyen Quang Huy"
+    },
+    {
+      "label": "Date of Birth",
+      "value": "6/6/1998"
+    },
+    {
+      "label": "Gender",
+      "value": "Male"
+    },
+    {
+      "label": "Address",
+      "value": "Hanoi, Vietnam"
+    },
+    {
+      "label": "Languages",
+      "value": "English, Vietnamese"
+    }
+  ]
+}

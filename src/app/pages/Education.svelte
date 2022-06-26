@@ -1,0 +1,85 @@
+<script>
+</script>
+
+<!--Education-->
+<div class="bg-ghostwhite p-4">
+  <p class="h6 text-dodgerblue">Nov 2016 - Nov 2020</p>
+  <p class="h4 text-center">Ha Noi FPT University</p>
+
+  <table class="table table-striped table-borderless project-table">
+    <tbody>
+      <tr>
+        <td><p class="h6">Freshman Year</p></td>
+        <td>
+          <p>
+            Study English full-time through 5 levels: Top Notch 1, Top Notch 2, Top Notch 3, Summit 1, Summit 2. Achieved SUMMIT 2
+            Certificate of FPT University, equivalent to 800+ point of TOEIC (or 6.5 IELTS).
+          </p>
+          <p>
+            <span class="badge bg-info">Top Notch 1</span>
+            <span class="badge bg-info">Top Notch 2</span>
+            <span class="badge bg-info">Top Notch 3</span>
+            <span class="badge bg-info">Summit 1</span>
+            <span class="badge bg-info">Summit 2</span>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><p class="h6">Sophomore Year</p></td>
+        <td>
+          <p>
+            I have learnt C, Java OOP, Java Desktop. Also learned the basics of Databases, Mathematics, Data Structures, Algorithms,
+            Operating Systems.
+          </p>
+
+          <p>
+            <span class="badge bg-primary">C</span>
+            <span class="badge bg-primary">Java OOP</span>
+            <span class="badge bg-primary">Java Desktop</span>
+            <span class="badge bg-primary">Databases</span>
+            <span class="badge bg-primary">Mathematics</span>
+            <span class="badge bg-primary">Data Structures</span>
+            <span class="badge bg-primary">Algorithms</span>
+            <span class="badge bg-primary">Operating Systems</span>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><p class="h6">Junior Year</p></td>
+        <td>
+          <p>
+            I have learnt Java Web, C#. The basics of Software Requirements, Software Quality & Assurance, Software Testing. Also start On
+            job training course at FPT Software Hoa Lac.
+          </p>
+          <p>
+            <span class="badge bg-primary">Java Web</span>
+            <span class="badge bg-primary">C#</span>
+            <span class="badge bg-primary">Software Requirements</span>
+            <span class="badge bg-primary">Software Quality & Assurance</span>
+            <span class="badge bg-primary">Software Testing</span>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><p class="h6">Senior Year</p></td>
+        <td>
+          <p>
+            I have learnt Android development, XML development, Advanced Mathematics, Data Warehouse. The basics of Software Architecture &
+            Design. Also completed the Capstone project with my team.
+          </p>
+          <p>
+            <span class="badge bg-primary">Android development</span>
+            <span class="badge bg-primary">XML development</span>
+            <span class="badge bg-primary">Advanced Mathematics</span>
+            <span class="badge bg-primary">Data Warehouse</span>
+            <span class="badge bg-primary">Software Architecture & Design</span>
+            <span class="badge bg-primary">Capstone project</span>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+</style>

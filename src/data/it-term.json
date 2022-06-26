@@ -1,0 +1,69 @@
+{
+  "itTerms": [
+    { "textSize": "h2 ", "onClick": "SOLID Principles", "label": "SOLID" },
+    { "textSize": "h4 ", "onClick": "OOP Principles", "label": "OOP" },
+    { "textSize": "h5 ", "onClick": "Design Patterns", "label": "Design Patterns" },
+    { "textSize": "h1 ", "onClick": "NoSQL", "label": "NoSQL" },
+    { "textSize": "h3 ", "onClick": "Programing Language Frameworks", "label": "Frameworks" },
+
+    { "textSize": "h5 ", "onClick": "Programing Language Library", "label": "Library" },
+    { "textSize": "h4 ", "onClick": "Software Architecture", "label": "Software Architecture" },
+    { "textSize": "h2 ", "onClick": "Data Structure", "label": "Data Structure" },
+    { "textSize": "h1 ", "onClick": "Algorithms", "label": "Algorithms" },
+    { "textSize": "h6 ", "onClick": "MVC Model", "label": "MVC" },
+
+    { "textSize": "h5 ", "onClick": "SQL (Structured Query Language)", "label": "SQL" },
+    { "textSize": "h1 ", "onClick": "Linux", "label": "Linux" },
+    { "textSize": "h6 ", "onClick": "Operating System", "label": "OS" },
+    { "textSize": "h4 ", "onClick": "Source Code", "label": "Source code" },
+    { "textSize": "h2 ", "onClick": "Codebase", "label": "Codebase" },
+
+    { "textSize": "h4 ", "onClick": "Network", "label": "Network" },
+    { "textSize": "h5 ", "onClick": "Internet", "label": "Internet" },
+    { "textSize": "h6 ", "onClick": "Software Development", "label": "Software Development" },
+    { "textSize": "h3 ", "onClick": "IDE (Integrated Development Environment)", "label": "IDE" },
+    { "textSize": "h1 ", "onClick": "Programming Languages", "label": "Programming Languages" },
+
+    { "textSize": "h2 ", "onClick": "Windows OS", "label": "Windows" },
+    { "textSize": "h5 ", "onClick": "Terminal", "label": "Terminal" },
+    { "textSize": "h1 ", "onClick": "Ubuntu OS", "label": "Ubuntu" },
+    { "textSize": "h3 ", "onClick": "Database", "label": "Database" },
+    { "textSize": "h6 ", "onClick": "Unit Test", "label": "Unit Test" },
+
+    { "textSize": "h3 ", "onClick": "Agile Scrum Software Development", "label": "Agile Scrum" },
+    { "textSize": "h2 ", "onClick": "Daily Meeting", "label": "Daily Meeting" },
+    { "textSize": "h5 ", "onClick": "Web Development", "label": "Web Development" },
+    { "textSize": "h6 ", "onClick": "Front-End Development", "label": "Front-End" },
+    { "textSize": "h5 ", "onClick": "Back-End Development", "label": "Back-End" },
+
+    { "textSize": "h2 ", "onClick": "Anti-Patterns", "label": "Anti-Patterns" },
+    { "textSize": "h5 ", "onClick": "Mobile Development", "label": "Mobile development" },
+    { "textSize": "h3 ", "onClick": "Hybrid Application", "label": "Hybrid Application" },
+    { "textSize": "h6 ", "onClick": "Cross-Platform", "label": "Cross-Platform" },
+    { "textSize": "h1 ", "onClick": "Programing Language Compiler", "label": "Compiler" },
+
+    { "textSize": "h6 ", "onClick": "Programing Language Interpreter", "label": "Interpreter" },
+    { "textSize": "h3 ", "onClick": "Pomodoro Technique", "label": "Pomodoro" },
+    { "textSize": "h5 ", "onClick": "MVVM Model", "label": "MVVM" },
+    { "textSize": "h1 ", "onClick": "Cloud Service", "label": "Cloud Service" },
+    { "textSize": "h2 ", "onClick": "UI/UX (User Interface/User Experience)", "label": "UI/UX" },
+
+    { "textSize": "h6 ", "onClick": "Coding Convention", "label": "Coding Convention" },
+    { "textSize": "h1 ", "onClick": "Clean Code", "label": "Clean Code" },
+    { "textSize": "h2 ", "onClick": "Software Documents", "label": "Documents" },
+    { "textSize": "h3 ", "onClick": "Technical Stack", "label": "Technical Stack" },
+    { "textSize": "h5 ", "onClick": "Algorithms Time Complexity", "label": "Time Complexity" },
+
+    { "textSize": "h3 ", "onClick": "API (Application Programming Interface)", "label": "API" },
+    { "textSize": "h1 ", "onClick": "Server", "label": "Server" },
+    { "textSize": "h5 ", "onClick": "Hardware", "label": "Hardware" },
+    { "textSize": "h6 ", "onClick": "Debugging", "label": "Debugging" },
+    { "textSize": "h2 ", "onClick": "Code Comments", "label": "Code Comments" },
+
+    { "textSize": "h2 ", "onClick": "XML (Extensible Markup Language)", "label": "XML" },
+    { "textSize": "h1 ", "onClick": "UML (Unified Modeling Language)", "label": "UML" },
+    { "textSize": "h3 ", "onClick": "Software Testing", "label": "Software Testing" },
+    { "textSize": "h6 ", "onClick": "Software Quality & Assurance", "label": "Software Quality & Assurance" },
+    { "textSize": "h4 ", "onClick": "Programing Paradigms", "label": "Programing Paradigms" }
+  ]
+}

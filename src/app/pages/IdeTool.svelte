@@ -1,0 +1,93 @@
+<script>
+</script>
+
+<!--Tools-->
+<div class="bg-ghostwhite p-4">
+  <p class="h4 text-center">IDEs & Tools</p>
+
+  <div class="d-flex flex-row flex-wrap justify-content-center">
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded main-skill">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/vscode.svg"
+        />
+        <p class="no-over-size">VS code</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/eclipse.svg"
+        />
+        <p class="no-over-size">Eclipse</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/intellij.svg"
+        />
+        <p class="no-over-size">IntelliJ</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/android-studio.svg"
+        />
+        <p class="no-over-size">Android Studio</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/netbeans.svg"
+        />
+        <p class="no-over-size">Netbeans</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded main-skill">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/cmd-terminal.svg"
+        />
+        <p class="no-over-size">Terminal</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded main-skill">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/chrome-dev-tools.svg"
+        />
+        <p class="no-over-size">Chrome Dev tools</p>
+      </div>
+    </div>
+    <div class="p-2">
+      <div class="p-2 border border-secondary rounded main-skill">
+        <img
+          alt="svelte-img"
+          class="skill-icon"
+          src="/assets/vendors/ide-tool-icons/postman.svg"
+        />
+        <p class="no-over-size">Postman</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+</style>

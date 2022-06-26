@@ -1,0 +1,15 @@
+{
+  "prgLangFw": [
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/angular.svg", "isMainSkill": true },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/typescript.svg", "isMainSkill": true },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/java.svg", "isMainSkill": false },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/spring-framework.svg", "isMainSkill": false },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/html5.svg", "isMainSkill": false },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/css3.svg", "isMainSkill": false },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/bootstrap.svg", "isMainSkill": true },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/git.svg", "isMainSkill": false },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/ionic-framework.svg", "isMainSkill": true },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/mysql.svg", "isMainSkill": false },
+    { "iconUrl": "/assets/vendors/vector-logo-zone-svgs/mongodb.svg", "isMainSkill": false }
+  ]
+}
