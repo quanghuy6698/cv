@@ -79,3 +79,28 @@
 .main-skill {
   background-color: Aquamarine;
 }
+
+.tabs {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.tabs__item {
+  padding: 8px;
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 4px;
+}
+
+.tabs__link {
+  text-decoration: none;
+}
