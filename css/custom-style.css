@@ -39,8 +39,18 @@
   max-width: 120px;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
 .contact-icon {
   min-width: 25px;
+  max-width: 30px;
 }
 
 .skill-icon {
