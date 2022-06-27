@@ -17,10 +17,3 @@ function redirect(url) {
   window.open(url, "_blank");
 }
 
-/**
- * Tabs
- */
-$(function () {
-  $("#tabs").tabs();
-});
-
