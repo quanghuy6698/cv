@@ -1,3 +1,40 @@
+@font-face {
+  font-family: MyFont;
+  font-style: normal;
+  font-weight: normal;
+  src: local("MyFont"), url("./font/OpenSans-Regular.ttf");
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url("../assets/img/bg/bg-2.jpg");
+  background-repeat: repeat;
+  font-family: MyFont;
+  font-size: 16px;
+}
+
+.main-container {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 479px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 479px) {
+  .main-container {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+}
+
 .text-deeppink {
   color: deeppink;
 }
@@ -80,27 +117,26 @@
   background-color: Aquamarine;
 }
 
-.tabs {
-  background-color: white;
+/* Tabs */
+.tabs-component-tabs {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  background-color: white;
 }
 
-.tabs__item {
-  padding: 8px;
-  border: 1px solid black;
-  border-top-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+.tabs-component-tab {
+  padding: 4px;
   margin: 4px;
+  border: 1px solid black;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
-.tabs__link {
+.tabs-component-tab-a {
   text-decoration: none;
 }

@@ -1,5 +1,24 @@
-# quanghuy6698 CV
+# cv-vuejs
 
-Technologies: HTML, CSS, JS, Bootstrap
+## Project setup
+```
+npm install
+```
 
-Thanks to: Font Awesome Icons, Vector Logo Zone
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
