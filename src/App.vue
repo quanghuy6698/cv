@@ -8,6 +8,7 @@
       <tab name="Tools"><ToolsComp /></tab>
       <tab name="Terms"><TermsComp /></tab>
       <tab name="Work Exp"><WorkExpsComp /></tab>
+      <tab name="Img"><ImgComp /></tab>
     </tabs>
     <FooterComp />
   </div>
@@ -24,6 +25,7 @@ import SkillsComp from "./app/components/SkillsComp.vue";
 import TermsComp from "./app/components/TermsComp.vue";
 import ToolsComp from "./app/components/ToolsComp.vue";
 import WorkExpsComp from "./app/components/WorkExpsComp.vue";
+import ImgComp from "./app/components/ImgComp.vue";
 
 export default {
   name: "App",
@@ -38,21 +40,10 @@ export default {
     TermsComp,
     ToolsComp,
     WorkExpsComp,
+    ImgComp,
   },
-  data() {
-    return {
-      mode: "dark",
-    };
-  },
-  methods: {
-    changeStyle() {
-      if (this.mode === "dark") {
-        this.mode = "light";
-      } else {
-        this.mode = "dark";
-      }
-    },
-  },
+  data() {},
+  methods: {},
 };
 </script>
 
