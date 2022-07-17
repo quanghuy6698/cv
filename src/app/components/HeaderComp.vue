@@ -3,7 +3,7 @@
   <div class="bg-darkcyan p-4 rounded-top">
     <div class="text-end">
       <button type="button" class="btn">
-        <a href="assets/cv-pdf/cv-NguyenQuangHuy-quanghuy6698.pdf" download target="_blank">
+        <a href="assets/cv-pdf/cv-quanghuy6698.pdf" download target="_blank">
           <img class="contact-icon" src="../../assets/vendor/font-awesome/download.svg" />
         </a>
       </button>
