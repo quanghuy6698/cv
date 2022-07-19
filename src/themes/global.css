@@ -97,6 +97,7 @@ body {
 
 .it-terms {
   color: gray;
+  word-break: break-word;
 }
 
 .cursor-pointer {
