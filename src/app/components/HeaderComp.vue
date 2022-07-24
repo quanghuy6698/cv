@@ -1,6 +1,7 @@
 <template>
   <!--Header-->
   <div class="bg-darkcyan p-4 rounded-top">
+    <!--
     <div class="text-end">
       <button type="button" class="btn">
         <a href="assets/cv-pdf/cv-quanghuy6698.pdf" download target="_blank">
@@ -8,6 +9,7 @@
         </a>
       </button>
     </div>
+    -->
     <div>
       <div class="text-center">
         <img src="../../assets/img/personal/avatar-2.jpg" class="center-block rounded-circle w-75 avatar" />
