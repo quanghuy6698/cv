@@ -1,7 +1,15 @@
-.text-deeppink {
-  color: deeppink;
+/* Common */
+.no-over-size {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Text colors */
 .text-cornsilk {
   color: cornsilk;
 }
@@ -10,6 +18,7 @@
   color: dodgerblue;
 }
 
+/* Bg colors */
 .bg-darkcyan {
   background-color: darkcyan;
 }
@@ -22,23 +31,41 @@
   background-color: GhostWhite;
 }
 
-.responsible-list li {
-  background: transparent;
-}
-
-.project-name {
-  font-weight: bold;
-}
-
-.project-table {
-  border: 1px solid #666;
-  border-collapse: collapse;
-}
-
+/* Avatar */
 .avatar {
   max-width: 120px;
 }
 
+/* Responsible */
+.responsible-list li {
+  background: transparent;
+}
+
+/* Tables */
+.cv-table__wrapper {
+  border: 1px solid #666;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.cv-table__table {
+  border-collapse: collapse;
+}
+
+/* Edu */
+.subject-english-tag {
+  padding: 8px;
+  background-color: purple;
+  color: #fff;
+}
+
+.subject-dev-tag {
+  padding: 8px;
+  background-color: tomato;
+  color: #fff;
+}
+
+/* Contact */
 .contact {
   display: flex;
   justify-content: center;
@@ -53,33 +80,26 @@
   max-width: 30px;
 }
 
+/* Skills */
 .skill-icon {
   min-width: 100px;
   max-width: 120px;
-}
-
-.it-terms {
-  color: gray;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.certification-img {
-  max-width: 12rem;
-}
-
-.no-over-size {
-  border: 0;
-  margin: 0;
-  padding: 0;
 }
 
 .main-skill {
   background-color: Aquamarine;
 }
 
+/* Terms */
+.it-terms {
+  color: gray;
+}
+
+.certification-img {
+  max-width: 12rem;
+}
+
+/* Tabs */
 .tabs {
   background-color: white;
   display: flex;
@@ -96,11 +116,18 @@
 .tabs__item {
   padding: 8px;
   border: 1px solid black;
-  border-top-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 8px;
   margin: 4px;
 }
 
 .tabs__link {
   text-decoration: none;
+}
+
+.tab--active {
+  background-color: mediumturquoise;
+}
+
+.tab--active a {
+  color: white;
 }

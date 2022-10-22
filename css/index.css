@@ -1,10 +1,10 @@
 @import "custom-style.css";
 
 @font-face {
-  font-family: MyFont;
+  font-family: MyOpenSans;
   font-style: normal;
   font-weight: normal;
-  src: local("MyFont"), url("../vendor/fonts/OpenSans-Regular.ttf");
+  src: local("MyOpenSans"), url("../vendor/fonts/OpenSans-Regular.ttf");
 }
 
 * {
@@ -16,7 +16,7 @@
 body {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url("../assets/img/backgrounds/bg-2.jpg");
   background-repeat: repeat;
-  font-family: MyFont;
+  font-family: MyOpenSans;
   font-size: 16px;
 }
 

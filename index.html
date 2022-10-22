@@ -2,19 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>quanghuy6698 - CV</title>
+    <title>quanghuy6698</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/app.ico" />
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/jquery/jquery-ui.min.js"></script>
+
     <!-- <link rel="stylesheet" href="vendor/jquery/jquery-ui.min.css" /> -->
     <link rel="stylesheet" href="vendor/bootstrap-5.0.2/bootstrap.min.css" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <div class="main-container mt-4 mb-4">
-      <!--Header-->
+      <!-- ****** Header ****** -->
       <div class="bg-darkcyan p-4 rounded-top">
         <div class="text-end">
           <button type="button" class="btn">
@@ -56,8 +57,8 @@
               </a>
             </li>
             <li class="nav-item me-2">
-              <a href="https://medium.com/@quanghuy6698" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/medium.svg" />
+              <a href="https://mossgreenman.wordpress.com/" target="_blank">
+                <img class="contact-icon" src="vendor/font-awesome-icons/wordpress.svg" />
               </a>
             </li>
             <li class="nav-item me-2">
@@ -74,158 +75,480 @@
         </div>
       </div>
 
-      <!--Tabs-->
+      <!-- **** Tabs **** -->
       <div id="tabs">
         <ul class="tabs">
-          <li class="tabs__item">
+          <li class="tabs__item tab--active">
             <a class="tabs__link" href="#about">About Me</a>
           </li>
           <li class="tabs__item">
             <a class="tabs__link" href="#edu">Education</a>
           </li>
           <li class="tabs__item">
-            <a class="tabs__link" href="#plfw">Skills</a>
-          </li>
-          <li class="tabs__item">
-            <a class="tabs__link" href="#idetool">IDEs & Tools</a>
-          </li>
-          <li class="tabs__item">
-            <a class="tabs__link" href="#itterm">IT Terms</a>
-          </li>
-          <li class="tabs__item">
             <a class="tabs__link" href="#workexp">Work Experiences</a>
+          </li>
+          <li class="tabs__item">
+            <a class="tabs__link" href="#skills">Skills</a>
+          </li>
+          <li class="tabs__item">
+            <a class="tabs__link" href="#tools">IDEs & Tools</a>
+          </li>
+          <li class="tabs__item">
+            <a class="tabs__link" href="#terms">IT Terms</a>
           </li>
         </ul>
 
-        <!--About and Contact-->
+        <!-- ** About and Contact ** -->
         <div id="about" class="bg-cornsilk p-4">
           <p class="h4 text-center">About me</p>
           <!--About -->
-          <table class="table table-striped table-borderless project-table">
-            <tbody>
-              <tr>
-                <th>Name</th>
-                <td>Nguyễn Quang Huy</td>
-              </tr>
-              <tr>
-                <th>Date of Birth</th>
-                <td>06/06/1998</td>
-              </tr>
-              <tr>
-                <th>Gender</th>
-                <td>Male</td>
-              </tr>
-              <tr>
-                <th>Address</th>
-                <td>Hanoi, Vietnam</td>
-              </tr>
-              <tr>
-                <th>Languages</th>
-                <td>English, Vietnamese</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="cv-table__wrapper">
+            <table class="table table-striped table-borderless cv-table__table">
+              <tbody>
+                <tr>
+                  <th>Name</th>
+                  <td>Nguyễn Quang Huy</td>
+                </tr>
+                <tr>
+                  <th>Date of Birth</th>
+                  <td>06/06/1998</td>
+                </tr>
+                <tr>
+                  <th>Gender</th>
+                  <td>Male</td>
+                </tr>
+                <tr>
+                  <th>Address</th>
+                  <td>Hanoi, Vietnam</td>
+                </tr>
+                <tr>
+                  <th>Languages</th>
+                  <td>English, Vietnamese</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <!-- Contact-->
-          <table class="table table-striped table-borderless project-table">
-            <tbody>
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="https://www.facebook.com/quanghuy6698/" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/facebook.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>facebook.com/quanghuy6698</span>
-                  </p>
-                </td>
-              </tr>
+          <div class="cv-table__wrapper">
+            <table class="table table-striped table-borderless cv-table">
+              <tbody>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="https://www.facebook.com/quanghuy6698/" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/facebook.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>facebook.com/quanghuy6698</span>
+                    </p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="mailto:quanghuy6698@gmail.com?subject=I want to hire you" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/email.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>quanghuy6698@gmail.com</span>
-                  </p>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="mailto:quanghuy6698@gmail.com?subject=I want to hire you" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/email.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>quanghuy6698@gmail.com</span>
+                    </p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="skype:live:quanghuy6698?chat" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/skype.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>live:quanghuy6698</span>
-                  </p>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="skype:live:quanghuy6698?chat" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/skype.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>live:quanghuy6698</span>
+                    </p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="https://github.com/quanghuy6698" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/github.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>github.com/quanghuy6698</span>
-                  </p>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="https://github.com/quanghuy6698" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/github.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>github.com/quanghuy6698</span>
+                    </p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="https://www.linkedin.com/in/quanghuy6698" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/linkedin.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>linkedin.com/in/quanghuy6698</span>
-                  </p>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="https://www.linkedin.com/in/quanghuy6698" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/linkedin.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>linkedin.com/in/quanghuy6698</span>
+                    </p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="https://medium.com/@quanghuy6698" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/medium.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>medium.com/@quanghuy6698</span>
-                  </p>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="https://mossgreenman.wordpress.com/" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/wordpress.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>medium.com/@quanghuy6698</span>
+                    </p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td>
-                  <p class="contact">
-                    <a href="https://play.google.com/store/apps/dev?id=6808718445926046458" target="_blank" class="contact-link">
-                      <img class="contact-icon" src="vendor/font-awesome-icons/google-play.svg" />
-                    </a>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>quanghuy6698</span>
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                <tr>
+                  <td>
+                    <p class="contact">
+                      <a href="https://play.google.com/store/apps/dev?id=6808718445926046458" target="_blank" class="contact-link">
+                        <img class="contact-icon" src="vendor/font-awesome-icons/google-play.svg" />
+                      </a>
+                      <span>&nbsp;&nbsp;</span>
+                      <span>quanghuy6698</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <!--Skills-->
-        <div id="plfw" class="bg-cornsilk p-4">
+
+        <!-- ** Education ** -->
+        <div id="edu" class="bg-cornsilk p-4">
+          <p class="h6 text-dodgerblue">Nov 2016 - Nov 2020</p>
+          <p class="h4 text-center">Ha Noi FPT University</p>
+
+          <div class="cv-table__wrapper">
+            <table class="table table-striped table-borderless cv-table">
+              <tbody>
+                <tr>
+                  <td><p class="h6">Freshman Year</p></td>
+                  <td>
+                    <p>
+                      Study English full-time through 5 levels: Top Notch 1, Top Notch 2, Top Notch 3, Summit 1, Summit 2. Achieved SUMMIT 2 Certificate of FPT University, equivalent to 800+ point of TOEIC (or 6.5
+                      IELTS).
+                    </p>
+                    <p>
+                      <span class="badge subject-english-tag">Top Notch 1</span>
+                      <span class="badge subject-english-tag">Top Notch 2</span>
+                      <span class="badge subject-english-tag">Top Notch 3</span>
+                      <span class="badge subject-english-tag">Summit 1</span>
+                      <span class="badge subject-english-tag">Summit 2</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Sophomore Year</p></td>
+                  <td>
+                    <p>I have learnt C, Java OOP, Java Desktop. Also learned the basics of Databases, Mathematics, Data Structures, Algorithms, Operating Systems.</p>
+
+                    <p>
+                      <span class="badge subject-dev-tag">C</span>
+                      <span class="badge subject-dev-tag">Java OOP</span>
+                      <span class="badge subject-dev-tag">Java Desktop</span>
+                      <span class="badge subject-dev-tag">Databases</span>
+                      <span class="badge subject-dev-tag">Mathematics</span>
+                      <span class="badge subject-dev-tag">Data Structures</span>
+                      <span class="badge subject-dev-tag">Algorithms</span>
+                      <span class="badge subject-dev-tag">Operating Systems</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Junior Year</p></td>
+                  <td>
+                    <p>I have learnt Java Web, C#. The basics of Software Requirements, Software Quality & Assurance, Software Testing. Also start On job training course at FPT Software Hoa Lac.</p>
+                    <p>
+                      <span class="badge subject-dev-tag">Java Web</span>
+                      <span class="badge subject-dev-tag">C#</span>
+                      <span class="badge subject-dev-tag">Software Requirements</span>
+                      <span class="badge subject-dev-tag">Software Quality & Assurance</span>
+                      <span class="badge subject-dev-tag">Software Testing</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Senior Year</p></td>
+                  <td>
+                    <p>I have learnt Android development, XML development, Advanced Mathematics, Data Warehouse. The basics of Software Architecture & Design. Also completed the Capstone project with my team.</p>
+                    <p>
+                      <span class="badge subject-dev-tag">Android development</span>
+                      <span class="badge subject-dev-tag">XML development</span>
+                      <span class="badge subject-dev-tag">Advanced Mathematics</span>
+                      <span class="badge subject-dev-tag">Data Warehouse</span>
+                      <span class="badge subject-dev-tag">Software Architecture & Design</span>
+                      <span class="badge subject-dev-tag">Capstone Project</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- ** Work Exps ** -->
+        <div id="workexp">
+          <div class="bg-cornsilk p-4">
+            <p class="h6 text-dodgerblue">May 2019 - Feb 2020</p>
+            <p class="h4 text-center">FPT Software Hoa Lac</p>
+            <p class="text-center">(Java: 99%)</p>
+
+            <div class="cv-table__wrapper">
+              <table class="table table-striped table-borderless cv-table">
+                <tbody>
+                  <tr>
+                    <td><p class="h6">Project</p></td>
+                    <td><span class="fw-bold text-success">Assets Management</span>: An outsourced project of Softbank, aim to help employees manage company's assets.</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Role</p></td>
+                    <td>Back-end Web Developer</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Employment type</p></td>
+                    <td>Part-time</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Location</p></td>
+                    <td>BUL FHN.JITS, FVille 1, FPT Software Hoa Lac, Thach That, Hanoi, Vietnam</td>
+                  </tr>
+
+                  <tr>
+                    <td><p class="h6">Technologies</p></td>
+                    <td>Java Spring MVC, MySQL, MyBatis, AJAX, jQuery, Git, SVN</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">IDEs and Tools</p></td>
+                    <td>Eclipse, A5 SQL (MySQL)</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Software development process</p></td>
+                    <td>Agile - Scrum (2 - 3 weeks)</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Customer</p></td>
+                    <td>Softbank (Japan)</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Languages in use</p></td>
+                    <td>Vietnamese, Japanese</td>
+                  </tr>
+
+                  <tr>
+                    <td><p class="h6">Responsibilities</p></td>
+                    <td>
+                      <ul class="list-group responsible-list">
+                        <li class="list-group-item">Create & manage back-end APIs</li>
+                        <li class="list-group-item">Develop front-end UI</li>
+
+                        <li class="list-group-item">Others: Execute test cases, Review documentations, Communicate with Business Analysis for the changes of requirement during develop process,...</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!--Saltlux Technology-->
+          <div class="bg-cornsilk p-4">
+            <p class="h6 text-dodgerblue">Nov 2020 - Jun 2021</p>
+            <p class="h4 text-center">Saltlux Technology</p>
+            <p class="text-center">(Angular: 80%, Java: 20%)</p>
+
+            <div class="cv-table__wrapper">
+              <table class="table table-striped table-borderless cv-table">
+                <tbody>
+                  <tr>
+                    <td><p class="h6">Project</p></td>
+                    <td><span class="fw-bold text-success">Social Account Care</span>: Project is developed aim to manage and feed social accounts for big data purpose</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Role</p></td>
+                    <td>Software Developer</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Employment type</p></td>
+                    <td>Full-time</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Location</p></td>
+                    <td>Vien Dong Tower, 36 Hoang Cau, Cho Dua, Dong Da, Hanoi, Vietnam</td>
+                  </tr>
+
+                  <tr>
+                    <td><p class="h6">Technologies</p></td>
+                    <td>Angular, TypeScript, Java Spring Boot, MySQL, MongoDB, Bootstrap, Git</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">IDEs and Tools</p></td>
+                    <td>Visual Studio Code, Studio3T, MySQL workbench, WinSCP, Window PowerShell</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Software development process</p></td>
+                    <td>Waterfall</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Customer</p></td>
+                    <td>Saltlux (Korea)</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Languages in use</p></td>
+                    <td>Vietnamese, English</td>
+                  </tr>
+
+                  <tr>
+                    <td><p class="h6">Responsibilities</p></td>
+                    <td>
+                      <ul class="list-group responsible-list">
+                        <li class="list-group-item">Design & develop front-end UI</li>
+                        <li class="list-group-item">Create & manage back-end APIs</li>
+                        <li class="list-group-item">Others: Research on APIs & social network policies, Configure & deploy the application on server,...</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- NTT DATA VDS -->
+          <!-- Name before 6/6/2022: IFI Solution -->
+          <div class="bg-cornsilk p-4">
+            <p class="h6 text-dodgerblue">Jul 2021 - Present</p>
+            <p class="h4 text-center">NTT DATA VDS</p>
+            <!-- <p class="h4 text-center">IFI Solution (name before 6/6/2022)</p> -->
+            <p class="text-center">(Angular: 90%, Java: 10%)</p>
+
+            <div class="cv-table__wrapper">
+              <table class="table table-striped table-borderless cv-table">
+                <tbody>
+                  <tr>
+                    <td><p class="h6">Project</p></td>
+                    <td><span class="fw-bold text-success">MDM (Master Data Management)</span>: Tibco EBX platform outsourcing</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Role</p></td>
+                    <td>Software Developer</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Employment type</p></td>
+                    <td>Full-time</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Location</p></td>
+                    <td>Thang Long Tower, 98A Nguy Nhu Kon Tum, Nhan Chinh, Thanh Xuan, Hanoi, Vietnam</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Technologies</p></td>
+                    <td>Java Servlet, Angular, PostgreSQL, TypeScript, Git, SVN</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">IDEs and Tools</p></td>
+                    <td>Visual Studio Code, Eclipse, PostgreSQL</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Software development process</p></td>
+                    <td>Agile - Scrum (2 weeks)</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Customer</p></td>
+                    <td>Tibco</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Languages in use</p></td>
+                    <td>Vietnamese, English</td>
+                  </tr>
+
+                  <tr>
+                    <td><p class="h6">Responsibilities</p></td>
+                    <td>
+                      <ul class="list-group responsible-list">
+                        <li class="list-group-item">Create & manage back-end APIs</li>
+                        <li class="list-group-item">Others: Fix bugs, Manage front-end UI,...</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="cv-table__wrapper">
+              <table class="table table-striped table-borderless cv-table">
+                <tbody>
+                  <tr>
+                    <td><p class="h6">Project</p></td>
+                    <td><span class="fw-bold text-success">EBX Go</span>: Mobile app version for EBX platform</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Role</p></td>
+                    <td>Software Developer</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Employment type</p></td>
+                    <td>Full-time</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Location</p></td>
+                    <td>Thang Long Tower, 98A Nguy Nhu Kon Tum, Nhan Chinh, Thanh Xuan, Hanoi, Vietnam</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Technologies</p></td>
+                    <td>Ionic - Angular, TypeScript, Java (Android), Git</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">IDEs and Tools</p></td>
+                    <td>Visual Studio Code, Android Studio, XCode</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Software development process</p></td>
+                    <td>Agile - Scrum (2 - 3 weeks)</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Customer</p></td>
+                    <td>Tibco Vietnam, Tibco France</td>
+                  </tr>
+                  <tr>
+                    <td><p class="h6">Languages in use</p></td>
+                    <td>English, Vietnamese</td>
+                  </tr>
+
+                  <tr>
+                    <td><p class="h6">Responsibilities</p></td>
+                    <td>
+                      <ul class="list-group responsible-list">
+                        <li class="list-group-item">Develop mobile UI</li>
+                        <li class="list-group-item">Integrate with EBX core APIs</li>
+                        <li class="list-group-item">Communicate with customer (Business Analysist, Designer, Solution Architect,...)</li>
+                        <li class="list-group-item">Others: Develop custom native plugins/modules, Build app for testing,...</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ** Skills ** -->
+        <div id="skills" class="bg-cornsilk p-4">
           <p class="h4 text-center">Programming Languages & Frameworks</p>
 
           <div class="d-flex flex-row flex-wrap justify-content-center">
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/vector-logo-zone-svgs/angular.svg" />
               </div>
             </div>
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/vector-logo-zone-svgs/typescript.svg" />
               </div>
             </div>
@@ -260,7 +583,7 @@
               </div>
             </div>
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/vector-logo-zone-svgs/ionic-framework.svg" />
               </div>
             </div>
@@ -276,13 +599,14 @@
             </div>
           </div>
         </div>
-        <!--Tools-->
-        <div id="idetool" class="bg-cornsilk p-4">
+
+        <!-- ** Tools ** -->
+        <div id="tools" class="bg-cornsilk p-4">
           <p class="h4 text-center">IDEs & Tools</p>
 
           <div class="d-flex flex-row flex-wrap justify-content-center">
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/ide-tool-icons/vscode.svg" />
                 <p class="no-over-size">VS code</p>
               </div>
@@ -312,27 +636,28 @@
               </div>
             </div>
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/ide-tool-icons/cmd-terminal.svg" />
                 <p class="no-over-size">Terminal</p>
               </div>
             </div>
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/ide-tool-icons/chrome-dev-tools.svg" />
                 <p class="no-over-size">Chrome Dev tools</p>
               </div>
             </div>
             <div class="p-2">
-              <div class="p-2 border border-secondary rounded main-skill">
+              <div class="p-2 border border-secondary rounded">
                 <img class="skill-icon" src="vendor/ide-tool-icons/postman.svg" />
                 <p class="no-over-size">Postman</p>
               </div>
             </div>
           </div>
         </div>
-        <!--Terms-->
-        <div id="itterm" class="bg-cornsilk p-4">
+
+        <!-- ** Terms ** -->
+        <div id="terms" class="bg-cornsilk p-4">
           <p class="h4 text-center">IT terms familiar to me</p>
           <p class="it-terms text-center">
             <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('SOLID Principles')">SOLID</span>
@@ -402,311 +727,9 @@
             <span class="h4 p-2 cursor-pointer" onClick="searchGoogle('Programing Paradigms')">Programing Paradigms</span>
           </p>
         </div>
-        <!--Education-->
-        <div id="edu" class="bg-cornsilk p-4">
-          <p class="h6 text-dodgerblue">Nov 2016 - Nov 2020</p>
-          <p class="h4 text-center">Ha Noi FPT University</p>
-
-          <table class="table table-striped table-borderless project-table">
-            <tbody>
-              <tr>
-                <td><p class="h6">Freshman Year</p></td>
-                <td>
-                  <p>
-                    Study English full-time through 5 levels: Top Notch 1, Top Notch 2, Top Notch 3, Summit 1, Summit 2. Achieved SUMMIT 2 Certificate of FPT University, equivalent to 800+ point of TOEIC (or 6.5 IELTS).
-                  </p>
-                  <p>
-                    <span class="badge bg-info">Top Notch 1</span>
-                    <span class="badge bg-info">Top Notch 2</span>
-                    <span class="badge bg-info">Top Notch 3</span>
-                    <span class="badge bg-info">Summit 1</span>
-                    <span class="badge bg-info">Summit 2</span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td><p class="h6">Sophomore Year</p></td>
-                <td>
-                  <p>I have learnt C, Java OOP, Java Desktop. Also learned the basics of Databases, Mathematics, Data Structures, Algorithms, Operating Systems.</p>
-
-                  <p>
-                    <span class="badge bg-primary">C</span>
-                    <span class="badge bg-primary">Java OOP</span>
-                    <span class="badge bg-primary">Java Desktop</span>
-                    <span class="badge bg-primary">Databases</span>
-                    <span class="badge bg-primary">Mathematics</span>
-                    <span class="badge bg-primary">Data Structures</span>
-                    <span class="badge bg-primary">Algorithms</span>
-                    <span class="badge bg-primary">Operating Systems</span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td><p class="h6">Junior Year</p></td>
-                <td>
-                  <p>I have learnt Java Web, C#. The basics of Software Requirements, Software Quality & Assurance, Software Testing. Also start On job training course at FPT Software Hoa Lac.</p>
-                  <p>
-                    <span class="badge bg-primary">Java Web</span>
-                    <span class="badge bg-primary">C#</span>
-                    <span class="badge bg-primary">Software Requirements</span>
-                    <span class="badge bg-primary">Software Quality & Assurance</span>
-                    <span class="badge bg-primary">Software Testing</span>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td><p class="h6">Senior Year</p></td>
-                <td>
-                  <p>I have learnt Android development, XML development, Advanced Mathematics, Data Warehouse. The basics of Software Architecture & Design. Also completed the Capstone project with my team.</p>
-                  <p>
-                    <span class="badge bg-primary">Android development</span>
-                    <span class="badge bg-primary">XML development</span>
-                    <span class="badge bg-primary">Advanced Mathematics</span>
-                    <span class="badge bg-primary">Data Warehouse</span>
-                    <span class="badge bg-primary">Software Architecture & Design</span>
-                    <span class="badge bg-primary">Capstone project</span>
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <!--FPT Software Hoa Lac-->
-        <div id="workexp">
-          <div class="bg-cornsilk p-4">
-            <p class="h6 text-dodgerblue">May 2019 - Feb 2020</p>
-            <p class="h4 text-center">FPT Software Hoa Lac</p>
-            <p class="text-center">(Java: 99%)</p>
-
-            <table class="table table-striped table-borderless project-table">
-              <tbody>
-                <tr>
-                  <td><p class="h6">Project</p></td>
-                  <td><span class="fw-bold text-success">Assets Management</span>: An outsourced project of Softbank, aim to help employees manage company's assets.</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Role</p></td>
-                  <td>Back-end Web Developer</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Employment type</p></td>
-                  <td>Part-time</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Location</p></td>
-                  <td>BUL FHN.JITS, FVille 1, FPT Software Hoa Lac, Thach That, Hanoi, Vietnam</td>
-                </tr>
-
-                <tr>
-                  <td><p class="h6">Technologies</p></td>
-                  <td>Java Spring MVC, MySQL, MyBatis, AJAX, jQuery, Git, SVN</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">IDEs and Tools</p></td>
-                  <td>Eclipse, A5 SQL (MySQL)</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Software development process</p></td>
-                  <td>Agile - Scrum (2 - 3 weeks)</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Customer</p></td>
-                  <td>Softbank (Japan)</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Languages in use</p></td>
-                  <td>Vietnamese, Japanese</td>
-                </tr>
-
-                <tr>
-                  <td><p class="h6">Responsibilities</p></td>
-                  <td>
-                    <ul class="list-group responsible-list">
-                      <li class="list-group-item">Create & manage back-end APIs</li>
-                      <li class="list-group-item">Develop front-end UI</li>
-
-                      <li class="list-group-item">Others: Execute test cases, Review documentations, Communicate with Business Analysis for the changes of requirement during develop process,...</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <!--Saltlux Technology-->
-          <div class="bg-cornsilk p-4">
-            <p class="h6 text-dodgerblue">Nov 2020 - Jun 2021</p>
-            <p class="h4 text-center">Saltlux Technology</p>
-            <p class="text-center">(Angular: 80%, Java: 20%)</p>
-
-            <table class="table table-striped table-borderless project-table">
-              <tbody>
-                <tr>
-                  <td><p class="h6">Project</p></td>
-                  <td><span class="fw-bold text-success">Social Account Care</span>: Project is developed aim to manage and feed social accounts for big data purpose</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Role</p></td>
-                  <td>Software Developer</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Employment type</p></td>
-                  <td>Full-time</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Location</p></td>
-                  <td>Vien Dong Tower, 36 Hoang Cau, Cho Dua, Dong Da, Hanoi, Vietnam</td>
-                </tr>
-
-                <tr>
-                  <td><p class="h6">Technologies</p></td>
-                  <td>Angular, TypeScript, Java Spring Boot, MySQL, MongoDB, Bootstrap, Git</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">IDEs and Tools</p></td>
-                  <td>Visual Studio Code, Studio3T, MySQL workbench, WinSCP, Window PowerShell</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Software development process</p></td>
-                  <td>Waterfall</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Customer</p></td>
-                  <td>Saltlux (Korea)</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Languages in use</p></td>
-                  <td>Vietnamese, English</td>
-                </tr>
-
-                <tr>
-                  <td><p class="h6">Responsibilities</p></td>
-                  <td>
-                    <ul class="list-group responsible-list">
-                      <li class="list-group-item">Design & develop front-end UI</li>
-                      <li class="list-group-item">Create & manage back-end APIs</li>
-                      <li class="list-group-item">Others: Research on APIs & social network policies, Configure & deploy the application on server,...</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <!-- NTT DATA VDS -->
-          <!-- Name before 6/6/2022: IFI Solution -->
-          <div class="bg-cornsilk p-4">
-            <p class="h6 text-dodgerblue">Jul 2021 - Present</p>
-            <p class="h4 text-center">NTT DATA VDS</p>
-            <!-- <p class="h4 text-center">IFI Solution (name before 6/6/2022)</p> -->
-            <p class="text-center">(Angular: 90%, Java: 10%)</p>
-
-            <table class="table table-striped table-borderless project-table">
-              <tbody>
-                <tr>
-                  <td><p class="h6">Project</p></td>
-                  <td><span class="fw-bold text-success">MDM (Master Data Management)</span>: Tibco EBX platform outsourcing</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Role</p></td>
-                  <td>Software Developer</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Employment type</p></td>
-                  <td>Full-time</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Location</p></td>
-                  <td>Thang Long Tower, 98A Nguy Nhu Kon Tum, Nhan Chinh, Thanh Xuan, Hanoi, Vietnam</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Technologies</p></td>
-                  <td>Java Servlet, Angular, PostgreSQL, TypeScript, Git, SVN</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">IDEs and Tools</p></td>
-                  <td>Visual Studio Code, Eclipse, PostgreSQL</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Software development process</p></td>
-                  <td>Agile - Scrum (2 weeks)</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Customer</p></td>
-                  <td>Tibco</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Languages in use</p></td>
-                  <td>Vietnamese, English</td>
-                </tr>
-
-                <tr>
-                  <td><p class="h6">Responsibilities</p></td>
-                  <td>
-                    <ul class="list-group responsible-list">
-                      <li class="list-group-item">Create & manage back-end APIs</li>
-                      <li class="list-group-item">Others: Fix bugs, Manage front-end UI,...</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <table class="table table-striped table-borderless project-table">
-              <tbody>
-                <tr>
-                  <td><p class="h6">Project</p></td>
-                  <td><span class="fw-bold text-success">EBX Go</span>: Mobile app version for EBX platform</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Role</p></td>
-                  <td>Software Developer</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Employment type</p></td>
-                  <td>Full-time</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Location</p></td>
-                  <td>Thang Long Tower, 98A Nguy Nhu Kon Tum, Nhan Chinh, Thanh Xuan, Hanoi, Vietnam</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Technologies</p></td>
-                  <td>Ionic - Angular, TypeScript, Java (Android), Git</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">IDEs and Tools</p></td>
-                  <td>Visual Studio Code, Android Studio, XCode</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Software development process</p></td>
-                  <td>Agile - Scrum (2 - 3 weeks)</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Customer</p></td>
-                  <td>Tibco Vietnam, Tibco France</td>
-                </tr>
-                <tr>
-                  <td><p class="h6">Languages in use</p></td>
-                  <td>English, Vietnamese</td>
-                </tr>
-
-                <tr>
-                  <td><p class="h6">Responsibilities</p></td>
-                  <td>
-                    <ul class="list-group responsible-list">
-                      <li class="list-group-item">Develop mobile UI</li>
-                      <li class="list-group-item">Integrate with EBX core APIs</li>
-                      <li class="list-group-item">Communicate with customer (Business Analysist, Designer, Solution Architect,...)</li>
-                      <li class="list-group-item">Others: Develop custom native plugins/modules, Build app for testing,...</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
       </div>
 
-      <!--Footer-->
+      <!-- ****** Footer ****** -->
       <div class="bg-darkcyan p-4 rounded-bottom">
         <div class="text-center">
           <ul class="nav justify-content-center">
@@ -736,8 +759,8 @@
               </a>
             </li>
             <li class="nav-item me-2">
-              <a href="https://medium.com/@quanghuy6698" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/medium.svg" />
+              <a href="https://mossgreenman.wordpress.com/" target="_blank">
+                <img class="contact-icon" src="vendor/font-awesome-icons/wordpress.svg" />
               </a>
             </li>
             <li class="nav-item me-2">

@@ -24,3 +24,8 @@ $(function () {
   $("#tabs").tabs();
 });
 
+
+$('#tabs ul li').click(function(){
+  $(this).addClass('tab--active');
+  $(this).siblings().removeClass('tab--active');
+});
