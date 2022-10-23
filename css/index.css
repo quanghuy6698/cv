@@ -9,10 +9,10 @@
 
 /* Font */
 @font-face {
-  font-family: MyOpenSans;
+  font-family: OpenSans;
   font-style: normal;
   font-weight: normal;
-  src: local("MyOpenSans"), url("../vendor/fonts/OpenSans-Regular.ttf");
+  src: local("OpenSans"), url("../vendor/fonts/OpenSans-Regular.ttf");
 }
 
 /* Background image, base font-size */
@@ -20,7 +20,7 @@ body {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),
     url("../assets/img/backgrounds/bg-2.jpg");
   background-repeat: repeat;
-  font-family: MyOpenSans;
+  font-family: OpenSans;
   font-size: 16px;
   padding-top: 24px;
   padding-bottom: 24px;
