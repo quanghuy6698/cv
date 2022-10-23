@@ -122,6 +122,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 16px;
 }
 
 .info-tbl-wrapper {
@@ -141,6 +142,10 @@
 
 .info-tbl tr td:nth-child(odd) {
   background: #e7e9eb;
+}
+
+.info-tbl tr td:first-child {
+  font-weight: 600;
 }
 
 .contact-tbl-wrapper {
@@ -201,6 +206,10 @@
   background: #e7e9eb;
 }
 
+.edu-tbl tr td:first-child {
+  font-weight: 600;
+}
+
 .year-subjects {
   display: flex;
   flex-direction: row;
@@ -219,17 +228,21 @@
 }
 
 .year-subjects__subject--english {
-  background-color: #4b8bbe;
+  background-color: #fa8072;
 }
 
 .year-subjects__subject--dev {
-  background-color: #306998;
+  background-color: #fa5f55;
 }
 
 /* Work exp page */
 .work-exp-page {
   background-color: #fff;
   padding: 16px;
+}
+
+.work-place {
+  padding-top: 16px;
 }
 
 .work-place__time {
@@ -266,6 +279,10 @@
   background: #e7e9eb;
 }
 
+.work-place-tbl tr td:first-child {
+  font-weight: 600;
+}
+
 /* Skills page */
 .skills-page {
   background-color: #fff;
@@ -277,11 +294,12 @@
   text-align: center;
 }
 
-.all-skills {
+.main-skills {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 16px;
 }
 
 .skill {
@@ -299,6 +317,34 @@
   max-width: 120px;
 }
 
+.other-skills-wrapper {
+  padding-top: 16px;
+}
+
+.other-skills-title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.other-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.other-skills__skill-wrapper {
+  padding: 4px;
+  background-color: transparent;
+}
+
+.other-skills__skill {
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #fa5f55;
+}
+
 /* Tools page */
 .tools-page {
   background-color: #fff;
@@ -310,12 +356,13 @@
   text-align: center;
 }
 
-.all-tools {
+.main-tools {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-top: 16px;
 }
 
 .tool {
@@ -331,6 +378,34 @@
 .tool__icon {
   min-width: 100px;
   max-width: 120px;
+}
+
+.other-tools-wrapper {
+  padding-top: 16px;
+}
+
+.other-tools-title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.other-tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.other-tools__tool-wrapper {
+  padding: 4px;
+  background-color: transparent;
+}
+
+.other-tools__tool {
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #fa5f55;
 }
 
 /* IT terms page */
@@ -349,33 +424,52 @@
 }
 
 .all-terms {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.term {
+.term__wrapper {
   padding: 4px;
+  background-color: transparent;
+}
+
+.term__term {
+  padding: 8px;
   cursor: pointer;
-  color: dimgray;
+  color: #fff;
+  background-color: #fa5f55;
+  border-radius: 8px;
 }
 
-.term--xl {
-  font-size: 2.4rem;
+/* Img page */
+.img-page {
+  background-color: #fff;
+  padding: 16px;
 }
 
-.term--lg {
+.work-place-imgs {
+  padding-top: 16px;
+}
+
+.work-place-imgs__time {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.work-place-imgs__name {
   font-size: 2rem;
+  text-align: center;
+  padding-bottom: 16px;
 }
 
-.term--md {
-  font-size: 1.8rem;
+.work-place-imgs__img {
+  width: 100%;
 }
 
-.term--sm {
-  font-size: 1.4rem;
-}
-
-.term--xs {
-  font-size: 1rem;
+.work-place-imgs__descr {
+  text-align: center;
 }
 
 /* Footer */
