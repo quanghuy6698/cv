@@ -25,7 +25,7 @@ $(function () {
 });
 
 
-$('#tabs ul li').click(function(){
-  $(this).addClass('tab--active');
-  $(this).siblings().removeClass('tab--active');
+$('#tabs ul li a').click(function(){
+  $(this).parent().addClass('tab--active');
+  $(this).parent().siblings().removeClass('tab--active');
 });

@@ -10,65 +10,68 @@
     <script src="vendor/jquery/jquery-ui.min.js"></script>
 
     <!-- <link rel="stylesheet" href="vendor/jquery/jquery-ui.min.css" /> -->
-    <link rel="stylesheet" href="vendor/bootstrap-5.0.2/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="vendor/bootstrap-5.0.2/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <div class="main-container mt-4 mb-4">
       <!-- ****** Header ****** -->
-      <div class="bg-darkcyan p-4 rounded-top">
-        <div class="text-end">
-          <button type="button" class="btn">
+      <div class="header">
+        <div class="download-cv">
+          <button type="button" class="download-btn">
             <a href="assets/cv-pdf/cv-NguyenQuangHuy-quanghuy6698.pdf" download target="_blank">
-              <img class="contact-icon" src="vendor/font-awesome-icons/download.svg" />
+              <img class="download-btn__icon" src="vendor/font-awesome-icons/download.svg" />
             </a>
           </button>
         </div>
+
         <div>
-          <div class="text-center">
-            <img src="assets/img/personal/avatar-2.jpg" class="center-block rounded-circle w-75 avatar" />
+          <div class="avatar">
+            <img src="assets/img/personal/avatar-2.jpg" class="avatar__img" />
           </div>
-          <p class="h4 text-center text-cornsilk">Nguyễn Quang Huy</p>
-          <p class="h6 text-center text-cornsilk">Software Developer</p>
-          <ul class="nav justify-content-center">
-            <li class="nav-item me-2">
+
+          <p class="my-name">Nguyễn Quang Huy</p>
+          <p class="my-major">Software Developer</p>
+
+          <ul class="contacts-line">
+            <li class="contacts-line-item">
               <a href="https://www.facebook.com/quanghuy6698/" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/facebook.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/facebook.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="mailto:quanghuy6698@gmail.com?subject=I want to hire you" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/email.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/email.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="skype:live:quanghuy6698?chat" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/skype.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/skype.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://github.com/quanghuy6698" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/github.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/github.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://www.linkedin.com/in/quanghuy6698" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/linkedin.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/linkedin.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://mossgreenman.wordpress.com/" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/wordpress.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/wordpress.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://play.google.com/store/apps/dev?id=6808718445926046458" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/google-play.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/google-play.svg" />
               </a>
             </li>
             <!-- <li class="nav-item">
               <a href="tel:+84392762666" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/phone-alt-solid.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/phone-alt-solid.svg" />
               </a>
             </li> -->
           </ul>
@@ -85,207 +88,298 @@
             <a class="tabs__link" href="#edu">Education</a>
           </li>
           <li class="tabs__item">
-            <a class="tabs__link" href="#workexp">Work Experiences</a>
+            <a class="tabs__link" href="#workexp">Work Exps</a>
           </li>
           <li class="tabs__item">
             <a class="tabs__link" href="#skills">Skills</a>
           </li>
           <li class="tabs__item">
-            <a class="tabs__link" href="#tools">IDEs & Tools</a>
+            <a class="tabs__link" href="#tools">Tools</a>
           </li>
           <li class="tabs__item">
-            <a class="tabs__link" href="#terms">IT Terms</a>
+            <a class="tabs__link" href="#terms">Terms</a>
           </li>
         </ul>
 
         <!-- ** About and Contact ** -->
-        <div id="about" class="bg-cornsilk p-4">
-          <p class="h4 text-center">About me</p>
-          <!--About -->
-          <div class="cv-table__wrapper">
-            <table class="table table-striped table-borderless cv-table__table">
-              <tbody>
+        <div id="about" class="about-page">
+          <p class="about-page__title">About me</p>
+
+          <div class="info-contact-wrapper">
+            <!--About -->
+            <div class="info-tbl-wrapper">
+              <table class="info-tbl">
                 <tr>
-                  <th>Name</th>
+                  <td>Name</td>
                   <td>Nguyễn Quang Huy</td>
                 </tr>
                 <tr>
-                  <th>Date of Birth</th>
+                  <td>Date of Birth</td>
                   <td>06/06/1998</td>
                 </tr>
                 <tr>
-                  <th>Gender</th>
+                  <td>Gender</td>
                   <td>Male</td>
                 </tr>
                 <tr>
-                  <th>Address</th>
+                  <td>Address</td>
                   <td>Hanoi, Vietnam</td>
                 </tr>
                 <tr>
-                  <th>Languages</th>
+                  <td>Languages</td>
                   <td>English, Vietnamese</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-          <!-- Contact-->
-          <div class="cv-table__wrapper">
-            <table class="table table-striped table-borderless cv-table">
-              <tbody>
+              </table>
+            </div>
+
+            <!-- Contact-->
+            <div class="contact-tbl-wrapper">
+              <table class="contact-tbl">
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="https://www.facebook.com/quanghuy6698/" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/facebook.svg" />
+                    <p>
+                      <a href="https://www.facebook.com/quanghuy6698/" target="_blank" class="contact-tbl__link">
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/facebook.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>facebook.com/quanghuy6698</span>
                     </p>
+                  </td>
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>facebook.com/quanghuy6698</span>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="mailto:quanghuy6698@gmail.com?subject=I want to hire you" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/email.svg" />
+                    <p>
+                      <a
+                        href="mailto:quanghuy6698@gmail.com?subject=I want to hire you"
+                        target="_blank"
+                        class="contact-tbl__link"
+                      >
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/email.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>quanghuy6698@gmail.com</span>
                     </p>
+                  </td>
+
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>quanghuy6698@gmail.com</span>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="skype:live:quanghuy6698?chat" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/skype.svg" />
+                    <p>
+                      <a href="skype:live:quanghuy6698?chat" target="_blank" class="contact-tbl__link">
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/skype.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>live:quanghuy6698</span>
                     </p>
+                  </td>
+
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>live:quanghuy6698</span>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="https://github.com/quanghuy6698" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/github.svg" />
+                    <p>
+                      <a href="https://github.com/quanghuy6698" target="_blank" class="contact-tbl__link">
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/github.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>github.com/quanghuy6698</span>
                     </p>
+                  </td>
+
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>github.com/quanghuy6698</span>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="https://www.linkedin.com/in/quanghuy6698" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/linkedin.svg" />
+                    <p>
+                      <a href="https://www.linkedin.com/in/quanghuy6698" target="_blank" class="contact-tbl__link">
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/linkedin.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>linkedin.com/in/quanghuy6698</span>
                     </p>
+                  </td>
+
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>linkedin.com/in/quanghuy6698</span>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="https://mossgreenman.wordpress.com/" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/wordpress.svg" />
+                    <p>
+                      <a href="https://mossgreenman.wordpress.com/" target="_blank" class="contact-tbl__link">
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/wordpress.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>mossgreenman.wordpress.com</span>
                     </p>
+                  </td>
+
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>mossgreenman.wordpress.com</span>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
-                    <p class="contact">
-                      <a href="https://play.google.com/store/apps/dev?id=6808718445926046458" target="_blank" class="contact-link">
-                        <img class="contact-icon" src="vendor/font-awesome-icons/google-play.svg" />
+                    <p>
+                      <a
+                        href="https://play.google.com/store/apps/dev?id=6808718445926046458"
+                        target="_blank"
+                        class="contact-tbl__link"
+                      >
+                        <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/google-play.svg" />
                       </a>
-                      <span>&nbsp;&nbsp;</span>
-                      <span>quanghuy6698</span>
                     </p>
                   </td>
+
+                  <td>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>quanghuy6698</span>
+                  </td>
                 </tr>
-              </tbody>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
 
         <!-- ** Education ** -->
-        <div id="edu" class="bg-cornsilk p-4">
-          <p class="h6 text-dodgerblue">Nov 2016 - Nov 2020</p>
-          <p class="h4 text-center">Ha Noi FPT University</p>
+        <div id="edu" class="edu-page">
+          <p class="edu-page__time">Nov 2016 - Nov 2020</p>
+          <p class="edu-page__title">Ha Noi FPT University</p>
 
-          <div class="cv-table__wrapper">
-            <table class="table table-striped table-borderless cv-table">
+          <div class="edu-tbl-wrapper">
+            <table class="edu-tbl">
               <tbody>
                 <tr>
                   <td><p class="h6">Freshman Year</p></td>
                   <td>
                     <p>
-                      Study English full-time through 5 levels: Top Notch 1, Top Notch 2, Top Notch 3, Summit 1, Summit 2. Achieved SUMMIT 2 Certificate of FPT University, equivalent to 800+ point of TOEIC (or 6.5
+                      Study English full-time through 5 levels: Top Notch 1, Top Notch 2, Top Notch 3, Summit 1, Summit
+                      2. Achieved SUMMIT 2 Certificate of FPT University, equivalent to 800+ point of TOEIC (or 6.5
                       IELTS).
                     </p>
-                    <p>
-                      <span class="badge subject-english-tag">Top Notch 1</span>
-                      <span class="badge subject-english-tag">Top Notch 2</span>
-                      <span class="badge subject-english-tag">Top Notch 3</span>
-                      <span class="badge subject-english-tag">Summit 1</span>
-                      <span class="badge subject-english-tag">Summit 2</span>
-                    </p>
+
+                    <div class="year-subjects">
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--english">Top Notch 1</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--english">Top Notch 2</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--english">Top Notch 3</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--english">Summit 1</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--english">Summit 2</div>
+                      </div>
+                    </div>
                   </td>
                 </tr>
                 <tr>
                   <td><p class="h6">Sophomore Year</p></td>
                   <td>
-                    <p>I have learnt C, Java OOP, Java Desktop. Also learned the basics of Databases, Mathematics, Data Structures, Algorithms, Operating Systems.</p>
-
                     <p>
-                      <span class="badge subject-dev-tag">C</span>
-                      <span class="badge subject-dev-tag">Java OOP</span>
-                      <span class="badge subject-dev-tag">Java Desktop</span>
-                      <span class="badge subject-dev-tag">Databases</span>
-                      <span class="badge subject-dev-tag">Mathematics</span>
-                      <span class="badge subject-dev-tag">Data Structures</span>
-                      <span class="badge subject-dev-tag">Algorithms</span>
-                      <span class="badge subject-dev-tag">Operating Systems</span>
+                      I have learnt C, Java OOP, Java Desktop. Also learned the basics of Databases, Mathematics, Data
+                      Structures, Algorithms, Operating Systems.
                     </p>
+
+                    <div class="year-subjects">
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">C</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Java OOP</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Java Desktop</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Databases</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Mathematics</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Data Structures</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Algorithms</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Operating Systems</div>
+                      </div>
+                    </div>
                   </td>
                 </tr>
                 <tr>
                   <td><p class="h6">Junior Year</p></td>
                   <td>
-                    <p>I have learnt Java Web, C#. The basics of Software Requirements, Software Quality & Assurance, Software Testing. Also start On job training course at FPT Software Hoa Lac.</p>
                     <p>
-                      <span class="badge subject-dev-tag">Java Web</span>
-                      <span class="badge subject-dev-tag">C#</span>
-                      <span class="badge subject-dev-tag">Software Requirements</span>
-                      <span class="badge subject-dev-tag">Software Quality & Assurance</span>
-                      <span class="badge subject-dev-tag">Software Testing</span>
+                      I have learnt Java Web, C#. The basics of Software Requirements, Software Quality & Assurance,
+                      Software Testing. Also start On job training course at FPT Software Hoa Lac.
                     </p>
+                    <div class="year-subjects">
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Java Web</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">C#</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Software Requirements</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">
+                          Software Quality & Assurance
+                        </div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Software Testing</div>
+                      </div>
+                    </div>
                   </td>
                 </tr>
                 <tr>
                   <td><p class="h6">Senior Year</p></td>
                   <td>
-                    <p>I have learnt Android development, XML development, Advanced Mathematics, Data Warehouse. The basics of Software Architecture & Design. Also completed the Capstone project with my team.</p>
                     <p>
-                      <span class="badge subject-dev-tag">Android development</span>
-                      <span class="badge subject-dev-tag">XML development</span>
-                      <span class="badge subject-dev-tag">Advanced Mathematics</span>
-                      <span class="badge subject-dev-tag">Data Warehouse</span>
-                      <span class="badge subject-dev-tag">Software Architecture & Design</span>
-                      <span class="badge subject-dev-tag">Capstone Project</span>
+                      I have learnt Android development, XML development, Advanced Mathematics, Data Warehouse. The
+                      basics of Software Architecture & Design. Also completed the Capstone project with my team.
                     </p>
+                    <div class="year-subjects">
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Android development</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">XML development</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Advanced Mathematics</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Data Warehouse</div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">
+                          Software Architecture & Design
+                        </div>
+                      </div>
+                      <div class="year-subjects__subject-wrapper">
+                        <div class="year-subjects__subject year-subjects__subject--dev">Capstone Project</div>
+                      </div>
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -294,81 +388,88 @@
         </div>
 
         <!-- ** Work Exps ** -->
-        <div id="workexp">
-          <div class="bg-cornsilk p-4">
-            <p class="h6 text-dodgerblue">May 2019 - Feb 2020</p>
-            <p class="h4 text-center">FPT Software Hoa Lac</p>
-            <p class="text-center">(Java: 99%)</p>
+        <div id="workexp" class="work-exp-page">
+          <div class="work-place">
+            <p class="work-place__time">May 2019 - Feb 2020</p>
+            <p class="work-place__name">FPT Software Hoa Lac</p>
+            <p class="work-place__tech-summary">(Java: 99%)</p>
 
-            <div class="cv-table__wrapper">
-              <table class="table table-striped table-borderless cv-table">
-                <tbody>
-                  <tr>
-                    <td><p class="h6">Project</p></td>
-                    <td><span class="fw-bold text-success">Assets Management</span>: An outsourced project of Softbank, aim to help employees manage company's assets.</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">Role</p></td>
-                    <td>Back-end Web Developer</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">Employment type</p></td>
-                    <td>Part-time</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">Location</p></td>
-                    <td>BUL FHN.JITS, FVille 1, FPT Software Hoa Lac, Thach That, Hanoi, Vietnam</td>
-                  </tr>
+            <div class="work-place-tbl-wrapper">
+              <table class="work-place-tbl">
+                <tr>
+                  <td><p class="h6">Project</p></td>
+                  <td>
+                    <span class="fw-bold text-success">Assets Management</span>: An outsourced project of Softbank, aim
+                    to help employees manage company's assets.
+                  </td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Role</p></td>
+                  <td>Back-end Web Developer</td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Employment type</p></td>
+                  <td>Part-time</td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Location</p></td>
+                  <td>BUL FHN.JITS, FVille 1, FPT Software Hoa Lac, Thach That, Hanoi, Vietnam</td>
+                </tr>
 
-                  <tr>
-                    <td><p class="h6">Technologies</p></td>
-                    <td>Java Spring MVC, MySQL, MyBatis, AJAX, jQuery, Git, SVN</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">IDEs and Tools</p></td>
-                    <td>Eclipse, A5 SQL (MySQL)</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">Software development process</p></td>
-                    <td>Agile - Scrum (2 - 3 weeks)</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">Customer</p></td>
-                    <td>Softbank (Japan)</td>
-                  </tr>
-                  <tr>
-                    <td><p class="h6">Languages in use</p></td>
-                    <td>Vietnamese, Japanese</td>
-                  </tr>
+                <tr>
+                  <td><p class="h6">Technologies</p></td>
+                  <td>Java Spring MVC, MySQL, MyBatis, AJAX, jQuery, Git, SVN</td>
+                </tr>
+                <tr>
+                  <td><p class="h6">IDEs and Tools</p></td>
+                  <td>Eclipse, A5 SQL (MySQL)</td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Software development process</p></td>
+                  <td>Agile - Scrum (2 - 3 weeks)</td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Customer</p></td>
+                  <td>Softbank (Japan)</td>
+                </tr>
+                <tr>
+                  <td><p class="h6">Languages in use</p></td>
+                  <td>Vietnamese, Japanese</td>
+                </tr>
 
-                  <tr>
-                    <td><p class="h6">Responsibilities</p></td>
-                    <td>
-                      <ul class="list-group responsible-list">
-                        <li class="list-group-item">Create & manage back-end APIs</li>
-                        <li class="list-group-item">Develop front-end UI</li>
+                <tr>
+                  <td><p class="h6">Responsibilities</p></td>
+                  <td>
+                    <div class="todo-responsible">
+                      <p class="list-group-item">Create & manage back-end APIs</p>
+                      <p class="list-group-item">Develop front-end UI</p>
 
-                        <li class="list-group-item">Others: Execute test cases, Review documentations, Communicate with Business Analysis for the changes of requirement during develop process,...</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
+                      <p class="list-group-item">
+                        Others: Execute test cases, Review documentations, Communicate with Business Analysis for the
+                        changes of requirement during develop process,...
+                      </p>
+                    </div>
+                  </td>
+                </tr>
               </table>
             </div>
           </div>
 
           <!--Saltlux Technology-->
-          <div class="bg-cornsilk p-4">
-            <p class="h6 text-dodgerblue">Nov 2020 - Jun 2021</p>
-            <p class="h4 text-center">Saltlux Technology</p>
-            <p class="text-center">(Angular: 80%, Java: 20%)</p>
+          <div class="work-place">
+            <p class="work-place__time">Nov 2020 - Jun 2021</p>
+            <p class="work-place__name">Saltlux Technology</p>
+            <p class="work-place__tech-summary">(Angular: 80%, Java: 20%)</p>
 
-            <div class="cv-table__wrapper">
-              <table class="table table-striped table-borderless cv-table">
+            <div class="work-place-tbl-wrapper">
+              <table class="work-place-tbl">
                 <tbody>
                   <tr>
                     <td><p class="h6">Project</p></td>
-                    <td><span class="fw-bold text-success">Social Account Care</span>: Project is developed aim to manage and feed social accounts for big data purpose</td>
+                    <td>
+                      <span class="fw-bold text-success">Social Account Care</span>: Project is developed aim to manage
+                      and feed social accounts for big data purpose
+                    </td>
                   </tr>
                   <tr>
                     <td><p class="h6">Role</p></td>
@@ -407,11 +508,14 @@
                   <tr>
                     <td><p class="h6">Responsibilities</p></td>
                     <td>
-                      <ul class="list-group responsible-list">
-                        <li class="list-group-item">Design & develop front-end UI</li>
-                        <li class="list-group-item">Create & manage back-end APIs</li>
-                        <li class="list-group-item">Others: Research on APIs & social network policies, Configure & deploy the application on server,...</li>
-                      </ul>
+                      <div class="todo-responsible">
+                        <p>Design & develop front-end UI</p>
+                        <p>Create & manage back-end APIs</p>
+                        <p>
+                          Others: Research on APIs & social network policies, Configure & deploy the application on
+                          server,...
+                        </p>
+                      </div>
                     </td>
                   </tr>
                 </tbody>
@@ -421,18 +525,20 @@
 
           <!-- NTT DATA VDS -->
           <!-- Name before 6/6/2022: IFI Solution -->
-          <div class="bg-cornsilk p-4">
-            <p class="h6 text-dodgerblue">Jul 2021 - Present</p>
-            <p class="h4 text-center">NTT DATA VDS</p>
-            <!-- <p class="h4 text-center">IFI Solution (name before 6/6/2022)</p> -->
-            <p class="text-center">(Angular: 90%, Java: 10%)</p>
+          <div class="work-place">
+            <p class="work-place__time">Jul 2021 - Present</p>
+            <p class="work-place__name">NTT DATA VDS</p>
+            <p class="work-place__tech-summary">(Angular: 90%, Java: 10%)</p>
 
-            <div class="cv-table__wrapper">
-              <table class="table table-striped table-borderless cv-table">
+            <div class="work-place-tbl-wrapper">
+              <table class="work-place-tbl">
                 <tbody>
                   <tr>
                     <td><p class="h6">Project</p></td>
-                    <td><span class="fw-bold text-success">MDM (Master Data Management)</span>: Tibco EBX platform outsourcing</td>
+                    <td>
+                      <span class="fw-bold text-success">MDM (Master Data Management)</span>: Tibco EBX platform
+                      outsourcing
+                    </td>
                   </tr>
                   <tr>
                     <td><p class="h6">Role</p></td>
@@ -471,8 +577,8 @@
                     <td><p class="h6">Responsibilities</p></td>
                     <td>
                       <ul class="list-group responsible-list">
-                        <li class="list-group-item">Create & manage back-end APIs</li>
-                        <li class="list-group-item">Others: Fix bugs, Manage front-end UI,...</li>
+                        <p>Create & manage back-end APIs</p>
+                        <p>Others: Fix bugs, Manage front-end UI,...</p>
                       </ul>
                     </td>
                   </tr>
@@ -480,8 +586,8 @@
               </table>
             </div>
 
-            <div class="cv-table__wrapper">
-              <table class="table table-striped table-borderless cv-table">
+            <div class="work-place-tbl-wrapper">
+              <table class="work-place-tbl">
                 <tbody>
                   <tr>
                     <td><p class="h6">Project</p></td>
@@ -524,10 +630,10 @@
                     <td><p class="h6">Responsibilities</p></td>
                     <td>
                       <ul class="list-group responsible-list">
-                        <li class="list-group-item">Develop mobile UI</li>
-                        <li class="list-group-item">Integrate with EBX core APIs</li>
-                        <li class="list-group-item">Communicate with customer (Business Analysist, Designer, Solution Architect,...)</li>
-                        <li class="list-group-item">Others: Develop custom native plugins/modules, Build app for testing,...</li>
+                        <p>Develop mobile UI</p>
+                        <p>Integrate with EBX core APIs</p>
+                        <p>Communicate with customer (Business Analysist, Designer, Solution Architect,...)</p>
+                        <p>Others: Develop custom native plugins/modules, Build app for testing,...</p>
                       </ul>
                     </td>
                   </tr>
@@ -538,118 +644,118 @@
         </div>
 
         <!-- ** Skills ** -->
-        <div id="skills" class="bg-cornsilk p-4">
-          <p class="h4 text-center">Programming Languages & Frameworks</p>
+        <div id="skills" class="skills-page">
+          <p class="skills-page__title">Programming Languages & Frameworks</p>
 
-          <div class="d-flex flex-row flex-wrap justify-content-center">
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/angular.svg" />
+          <div class="all-skills">
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/angular.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/typescript.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/typescript.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/java.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/java.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/spring-framework.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/spring-framework.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/html5.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/html5.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/css3.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/css3.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/bootstrap.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/bootstrap.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/git.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/git.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/ionic-framework.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/ionic-framework.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/mysql.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/mysql.svg" />
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/vector-logo-zone-svgs/mongodb.svg" />
+            <div class="skill">
+              <div class="skill__icon-wrapper">
+                <img class="skill__icon" src="vendor/vector-logo-zone-svgs/mongodb.svg" />
               </div>
             </div>
           </div>
         </div>
 
         <!-- ** Tools ** -->
-        <div id="tools" class="bg-cornsilk p-4">
-          <p class="h4 text-center">IDEs & Tools</p>
+        <div id="tools" class="tools-page">
+          <p class="tools-page__title">IDEs & Tools</p>
 
-          <div class="d-flex flex-row flex-wrap justify-content-center">
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/vscode.svg" />
+          <div class="all-tools">
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/vscode.svg" />
                 <p class="no-over-size">VS code</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/eclipse.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/eclipse.svg" />
                 <p class="no-over-size">Eclipse</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/intellij.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/intellij.svg" />
                 <p class="no-over-size">IntelliJ</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/android-studio.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/android-studio.svg" />
                 <p class="no-over-size">Android Studio</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/netbeans.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/netbeans.svg" />
                 <p class="no-over-size">Netbeans</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/cmd-terminal.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/cmd-terminal.svg" />
                 <p class="no-over-size">Terminal</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/chrome-dev-tools.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/chrome-dev-tools.svg" />
                 <p class="no-over-size">Chrome Dev tools</p>
               </div>
             </div>
-            <div class="p-2">
-              <div class="p-2 border border-secondary rounded">
-                <img class="skill-icon" src="vendor/ide-tool-icons/postman.svg" />
+            <div class="tool">
+              <div class="tool__wrapper">
+                <img class="tool__icon" src="vendor/ide-tool-icons/postman.svg" />
                 <p class="no-over-size">Postman</p>
               </div>
             </div>
@@ -657,117 +763,127 @@
         </div>
 
         <!-- ** Terms ** -->
-        <div id="terms" class="bg-cornsilk p-4">
-          <p class="h4 text-center">IT terms familiar to me</p>
-          <p class="it-terms text-center">
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('SOLID Principles')">SOLID</span>
-            <span class="h4 p-2 cursor-pointer" onClick="searchGoogle('OOP Principles')">OOP</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Design Patterns')">Design Patterns</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('NoSQL')">NoSQL</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Programing Language Frameworks')">Frameworks</span>
+        <div id="terms" class="terms-page">
+          <p class="terms-page__title">IT terms familiar to me</p>
 
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Programing Language Library')">Library</span>
-            <span class="h4 p-2 cursor-pointer" onClick="searchGoogle('Software Architecture')">Software Architecture</span>
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Data Structure')">Data Structure</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Algorithms')">Algorithms</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('MVC Model')">MVC</span>
+          <div class="all-terms-wrapper">
+            <p class="all-terms">
+              <span class="term term--lg" onClick="searchGoogle('SOLID Principles')">SOLID</span>
+              <span class="term term--sm" onClick="searchGoogle('OOP Principles')">OOP</span>
+              <span class="term term--xs" onClick="searchGoogle('Design Patterns')">Design Patterns</span>
+              <span class="term term--xl" onClick="searchGoogle('NoSQL')">NoSQL</span>
+              <span class="term term--md" onClick="searchGoogle('Programing Language Frameworks')">Frameworks</span>
 
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('SQL (Structured Query Language)')">SQL</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Linux')">Linux</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Operating System')">OS</span>
-            <span class="h4 p-2 cursor-pointer" onClick="searchGoogle('Source Code')">Source code</span>
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Codebase')">Codebase</span>
+              <span class="term term--xs" onClick="searchGoogle('Programing Language Library')">Library</span>
+              <span class="term term--sm" onClick="searchGoogle('Software Architecture')">Software Architecture</span>
+              <span class="term term--lg" onClick="searchGoogle('Data Structure')">Data Structure</span>
+              <span class="term term--xl" onClick="searchGoogle('Algorithms')">Algorithms</span>
+              <span class="term term--xs" onClick="searchGoogle('MVC Model')">MVC</span>
 
-            <span class="h4 p-2 cursor-pointer" onClick="searchGoogle('Network')">Network</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Internet')">Internet</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Software Development')">Software Development</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('IDE (Integrated Development Environment)')">IDE</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Programming Languages')">Programming Languages</span>
+              <span class="term term--xs" onClick="searchGoogle('SQL (Structured Query Language)')">SQL</span>
+              <span class="term term--xl" onClick="searchGoogle('Linux')">Linux</span>
+              <span class="term term--xs" onClick="searchGoogle('Operating System')">OS</span>
+              <span class="term term--sm" onClick="searchGoogle('Source Code')">Source code</span>
+              <span class="term term--lg" onClick="searchGoogle('Codebase')">Codebase</span>
 
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Windows OS')">Windows</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Terminal')">Terminal</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Ubuntu OS')">Ubuntu</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Database')">Database</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Unit Test')">Unit Test</span>
+              <span class="term term--sm" onClick="searchGoogle('Network')">Network</span>
+              <span class="term term--xs" onClick="searchGoogle('Internet')">Internet</span>
+              <span class="term term--xs" onClick="searchGoogle('Software Development')">Software Development</span>
+              <span class="term term--md" onClick="searchGoogle('IDE (Integrated Development Environment)')">IDE</span>
+              <span class="term term--xl" onClick="searchGoogle('Programming Languages')">Programming Languages</span>
 
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Agile Scrum Software Development')">Agile Scrum</span>
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Daily Meeting')">Daily Meeting</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Web Development')">Web Development</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Front-End Development')">Front-End</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Back-End Development')">Back-End</span>
+              <span class="term term--lg" onClick="searchGoogle('Windows OS')">Windows</span>
+              <span class="term term--xs" onClick="searchGoogle('Terminal')">Terminal</span>
+              <span class="term term--xl" onClick="searchGoogle('Ubuntu OS')">Ubuntu</span>
+              <span class="term term--md" onClick="searchGoogle('Database')">Database</span>
+              <span class="term term--xs" onClick="searchGoogle('Unit Test')">Unit Test</span>
 
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Anti-Patterns')">Anti-Patterns</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Mobile Development')">Mobile development</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Hybrid Application')">Hybrid Application</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Cross-Platform')">Cross-Platform</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Programing Language Compiler')">Compiler</span>
+              <span class="term term--md" onClick="searchGoogle('Agile Scrum Software Development')">Agile Scrum</span>
+              <span class="term term--lg" onClick="searchGoogle('Daily Meeting')">Daily Meeting</span>
+              <span class="term term--xs" onClick="searchGoogle('Web Development')">Web Development</span>
+              <span class="term term--xs" onClick="searchGoogle('Front-End Development')">Front-End</span>
+              <span class="term term--xs" onClick="searchGoogle('Back-End Development')">Back-End</span>
 
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Programing Language Interpreter')">Interpreter</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Pomodoro Technique')">Pomodoro</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('MVVM Model')">MVVM</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Cloud Service')">Cloud Service</span>
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('UI/UX (User Interface/User Experience)')">UI/UX</span>
+              <span class="term term--lg" onClick="searchGoogle('Anti-Patterns')">Anti-Patterns</span>
+              <span class="term term--xs" onClick="searchGoogle('Mobile Development')">Mobile development</span>
+              <span class="term term--md" onClick="searchGoogle('Hybrid Application')">Hybrid Application</span>
+              <span class="term term--xs" onClick="searchGoogle('Cross-Platform')">Cross-Platform</span>
+              <span class="term term--xl" onClick="searchGoogle('Programing Language Compiler')">Compiler</span>
 
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Coding Convention')">Coding Convention</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Clean Code')">Clean Code</span>
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Software Documents')">Documents</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Technical Stack')">Technical Stack</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Algorithms Time Complexity')">Time Complexity</span>
+              <span class="term term--xs" onClick="searchGoogle('Programing Language Interpreter')">Interpreter</span>
+              <span class="term term--md" onClick="searchGoogle('Pomodoro Technique')">Pomodoro</span>
+              <span class="term term--xs" onClick="searchGoogle('MVVM Model')">MVVM</span>
+              <span class="term term--xl" onClick="searchGoogle('Cloud Service')">Cloud Service</span>
+              <span class="term term--lg" onClick="searchGoogle('UI/UX (User Interface/User Experience)')">UI/UX</span>
 
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('API (Application Programming Interface)')">API</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('Server')">Server</span>
-            <span class="h5 p-2 cursor-pointer" onClick="searchGoogle('Hardware')">Hardware</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Debugging')">Debugging</span>
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('Code Comments')">Code Comments</span>
+              <span class="term term--xs" onClick="searchGoogle('Coding Convention')">Coding Convention</span>
+              <span class="term term--xl" onClick="searchGoogle('Clean Code')">Clean Code</span>
+              <span class="term term--lg" onClick="searchGoogle('Software Documents')">Documents</span>
+              <span class="term term--md" onClick="searchGoogle('Technical Stack')">Technical Stack</span>
+              <span class="term term--xs" onClick="searchGoogle('Algorithms Time Complexity')">Time Complexity</span>
 
-            <span class="h2 p-2 cursor-pointer" onClick="searchGoogle('XML (Extensible Markup Language)')">XML</span>
-            <span class="h1 p-2 cursor-pointer" onClick="searchGoogle('UML (Unified Modeling Language)')">UML</span>
-            <span class="h3 p-2 cursor-pointer" onClick="searchGoogle('Software Testing')">Software Testing</span>
-            <span class="h6 p-2 cursor-pointer" onClick="searchGoogle('Software Quality & Assurance')">Software Quality & Assurance</span>
-            <span class="h4 p-2 cursor-pointer" onClick="searchGoogle('Programing Paradigms')">Programing Paradigms</span>
-          </p>
+              <span class="term term--md" onClick="searchGoogle('API (Application Programming Interface)')">API</span>
+              <span class="term term--xl" onClick="searchGoogle('Server')">Server</span>
+              <span class="term term--xs" onClick="searchGoogle('Hardware')">Hardware</span>
+              <span class="term term--xs" onClick="searchGoogle('Debugging')">Debugging</span>
+              <span class="term term--lg" onClick="searchGoogle('Code Comments')">Code Comments</span>
+
+              <span class="term term--lg" onClick="searchGoogle('XML (Extensible Markup Language)')">XML</span>
+              <span class="term term--xl" onClick="searchGoogle('UML (Unified Modeling Language)')">UML</span>
+              <span class="term term--md" onClick="searchGoogle('Software Testing')">Software Testing</span>
+              <span class="term term--xs" onClick="searchGoogle('Software Quality & Assurance')"
+                >Software Quality & Assurance</span
+              >
+              <span class="term term--sm" onClick="searchGoogle('Programing Paradigms')">Programing Paradigms</span>
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- ****** Footer ****** -->
-      <div class="bg-darkcyan p-4 rounded-bottom">
-        <div class="text-center">
-          <ul class="nav justify-content-center">
-            <li class="nav-item me-2">
+      <div class="footer">
+        <div class="">
+          <ul class="contacts-line">
+            <li class="contacts-line-item">
               <a href="https://www.facebook.com/quanghuy6698/" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/facebook.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/facebook.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="mailto:quanghuy6698@gmail.com?subject=I want to hire you" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/email.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/email.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="skype:live:quanghuy6698?chat" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/skype.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/skype.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://github.com/quanghuy6698" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/github.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/github.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://www.linkedin.com/in/quanghuy6698" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/linkedin.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/linkedin.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://mossgreenman.wordpress.com/" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/wordpress.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/wordpress.svg" />
               </a>
             </li>
-            <li class="nav-item me-2">
+            <li class="contacts-line-item">
               <a href="https://play.google.com/store/apps/dev?id=6808718445926046458" target="_blank">
-                <img class="contact-icon" src="vendor/font-awesome-icons/google-play.svg" />
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/google-play.svg" />
               </a>
             </li>
+            <!-- <li class="nav-item">
+              <a href="tel:+84392762666" target="_blank">
+                <img class="contacts-line-item__icon" src="vendor/font-awesome-icons/phone-alt-solid.svg" />
+              </a>
+            </li> -->
           </ul>
         </div>
       </div>

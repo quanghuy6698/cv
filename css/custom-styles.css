@@ -1,0 +1,387 @@
+/* Common */
+.no-over-size {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background-color: #306998;
+  padding: 24px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Download */
+.download-cv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-btn {
+  background: transparent;
+}
+
+.download-btn__icon {
+  min-width: 25px;
+  max-width: 30px;
+}
+
+/* Avatar */
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar__img {
+  max-width: 120px;
+  border-radius: 50%;
+}
+
+/* Name and Major */
+.my-name {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.my-major {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* Contacts line */
+.contacts-line {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.contacts-line-item {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.contacts-line-item__icon {
+  min-width: 25px;
+  max-width: 30px;
+}
+
+/* Tabs */
+.tabs {
+  background-color: #4b8bbe;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.tabs__item {
+  padding: 8px;
+  border-radius: 8px;
+  margin: 4px;
+  font-size: 1.2rem;
+}
+
+.tabs__link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab--active {
+  background-color: #fff;
+}
+
+.tab--active a {
+  color: #000;
+}
+
+/* About page */
+.about-page {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.about-page__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.info-contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-tbl-wrapper {
+  padding: 8px;
+}
+
+.info-tbl {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+.info-tbl td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.info-tbl tr td:nth-child(odd) {
+  background: #e7e9eb;
+}
+
+.contact-tbl-wrapper {
+  padding: 8px;
+}
+
+.contact-tbl {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+.contact-tbl td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.contact-tbl tr td:nth-child(odd) {
+  background: #e7e9eb;
+}
+
+.contact-tbl__link {
+  text-decoration: none;
+}
+
+/* Education page */
+.edu-page {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.edu-page__time {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.edu-page__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.edu-tbl-wrapper {
+  padding: 8px;
+}
+
+.edu-tbl {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+.edu-tbl td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.edu-tbl tr:nth-child(odd) {
+  background: #e7e9eb;
+}
+
+.year-subjects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.year-subjects__subject-wrapper {
+  padding: 4px;
+  background-color: transparent;
+}
+
+.year-subjects__subject {
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.year-subjects__subject--english {
+  background-color: #4b8bbe;
+}
+
+.year-subjects__subject--dev {
+  background-color: #306998;
+}
+
+/* Work exp page */
+.work-exp-page {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.work-place__time {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.work-place__name {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.work-place__tech-summary {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.work-place-tbl-wrapper {
+  padding: 8px;
+}
+
+.work-place-tbl {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+.work-place-tbl td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.work-place-tbl tr:nth-child(odd) {
+  background: #e7e9eb;
+}
+
+/* Skills page */
+.skills-page {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.skills-page__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.all-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  padding: 8px;
+}
+
+.skill__icon-wrapper {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.skill__icon {
+  min-width: 100px;
+  max-width: 120px;
+}
+
+/* Tools page */
+.tools-page {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.tools-page__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.all-tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool {
+  padding: 8px;
+}
+
+.tool__wrapper {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.tool__icon {
+  min-width: 100px;
+  max-width: 120px;
+}
+
+/* IT terms page */
+.terms-page {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.terms-page__title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.all-terms-wrapper {
+  padding-top: 24px;
+}
+
+.all-terms {
+  text-align: center;
+}
+
+.term {
+  padding: 4px;
+  cursor: pointer;
+  color: dimgray;
+}
+
+.term--xl {
+  font-size: 2.4rem;
+}
+
+.term--lg {
+  font-size: 2rem;
+}
+
+.term--md {
+  font-size: 1.8rem;
+}
+
+.term--sm {
+  font-size: 1.4rem;
+}
+
+.term--xs {
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #306998;
+  padding: 24px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
